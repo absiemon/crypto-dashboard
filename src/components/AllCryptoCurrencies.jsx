@@ -30,7 +30,7 @@ function AllCryptoCurrencies() {
                     <div className="font-medium">
                       <p className="text-sm">{obj?.name}</p>
                       <p className="text-sm text-gray-400">
-                        Mkt.Cap 
+                        Mkt.Cap {" "}
                         {currency === "USD" && "$"}
                         {currency === "INR" && "₹"}
                         {currency === "JYP" && "¥"}
