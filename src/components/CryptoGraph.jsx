@@ -51,9 +51,11 @@ function CryptoGraph() {
         });
       }).catch((err)=>{
         setIsGraphLoading(false);
+        window.alert("Too many Api requests")
       })
     } catch (error) {
       setIsGraphLoading(false);
+      window.alert("Too many Api requests")
     }
   }, [days, searchCrypto, currency]);
 

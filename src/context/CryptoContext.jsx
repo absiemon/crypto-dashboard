@@ -24,7 +24,7 @@ export const CryptoProvider = ({ children }) => {
       setLoading(false)
     } catch (error) {
       setLoading(false)
-      console.log(error);
+      window.alert("Too many Api requests")
     }
   };
 
